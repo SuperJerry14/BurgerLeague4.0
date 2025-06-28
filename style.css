@@ -1,0 +1,42 @@
+
+body {
+  margin: 0;
+  background: #1e1e2f;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+.header {
+  padding: 20px;
+  background-color: #292944;
+}
+.game-container {
+  padding: 20px;
+}
+.clicker, .prestige {
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 10px;
+}
+.heroes, .shop, .achievements {
+  margin: 20px auto;
+  padding: 10px;
+  background: #2f2f4f;
+  border-radius: 10px;
+  width: 80%;
+}
+.popup {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #00cc66;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  z-index: 999;
+}
+.hidden {
+  display: none;
+}

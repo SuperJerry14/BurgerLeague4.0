@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Burger Justice League</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="header">
+    <h1>Burger Justice League</h1>
+    <p>Earn 🍔s and defeat That Guy!</p>
+  </div>
+  <div class="game-container">
+    <div class="status">
+      <h2 id="burgers">🍔 Burgers: 0</h2>
+      <h3 id="bps">BPS: 0</h3>
+      <button onclick="clickBurger()" class="clicker">Click Me!</button>
+    </div>
+    <div class="heroes" id="heroes"></div>
+    <div class="shop" id="shop"></div>
+    <div class="achievements" id="achievements"></div>
+    <div id="prestigeSection">
+      <button onclick="prestige()" class="prestige">Prestige</button>
+    </div>
+    <div id="finalBoss" class="hidden">
+      <h2>That Guy Appears!</h2>
+      <p>Irony Man: "Wow, you're still doing this? Get a hobby."</p>
+    </div>
+  </div>
+  <div id="popup" class="popup hidden">Achievement Unlocked!</div>
+  <script src="game.js"></script>
+</body>
+</html>
